@@ -10,8 +10,12 @@
     <h1>Exercice 5 Partie 1 : Les variables PHP</h1>
     <p>
         <?php
-            $int = NULL;
+            $int = 0;
             echo $int;
+            ?>
+    </p>
+    <p>
+        <?php
             $int = 5;
             echo $int;
         ?>
